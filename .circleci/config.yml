@@ -16,6 +16,7 @@ jobs:
 
     working_directory: ~/repo
 
+install_composer: &install_composer
     steps:
       - checkout
 
