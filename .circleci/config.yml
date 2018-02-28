@@ -35,4 +35,4 @@ install_composer: &install_composer
           key: v1-dependencies-{{ checksum "composer.json" }}
         
       # run tests!
-      - run: phpunit
+      - run: Rack-A-Tack/tests/
