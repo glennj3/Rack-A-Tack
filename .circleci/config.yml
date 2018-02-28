@@ -34,4 +34,4 @@ jobs:
           key: v1-dependencies-{{ checksum "composer.json" }}
         
       # run tests!
-      - run: pphpunit --filter testGivenInvalid_WhenInvalidUsername_Then LoginTest ./tests/LoginTest.php
+      - run: phpunit --filter testGivenInvalid_WhenInvalidUsername_Then LoginTest ./tests/LoginTest.php
