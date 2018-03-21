@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 include("../../src/db_connect.php");//changed
 
-include_path='./home/php';
+set_include_path='./repo/php';
 
 
 
