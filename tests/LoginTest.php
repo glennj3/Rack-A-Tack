@@ -4,6 +4,8 @@ use PHPUnit\Framework\TestCase;
 
 include("../../src/db_connect.php");//changed
 
+include_path='.:/Rack-A-Tack/php'
+
 
 
 Class LoginTest extends TestCase
